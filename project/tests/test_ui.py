@@ -1,8 +1,8 @@
 import time
 import pytest
-from Project.Business.guide_page_object import GuidePage
-from Project.Business.starting_page_object import StartingPage
-from Project.Core.logger import get_logger
+from project.business.guide_page_object import GuidePage
+from project.business.starting_page_object import StartingPage
+from project.core.logger import get_logger
 
 # Initialize the logger
 logger = get_logger(__name__)

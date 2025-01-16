@@ -3,7 +3,7 @@ import requests
 from jsonschema import validate
 from jsonschema.exceptions import ValidationError
 from unittest.mock import patch
-from Project.Core.logger import get_logger
+from project.core.logger import get_logger
 
 # Initialize the logger
 logger = get_logger(__name__)
